@@ -1,0 +1,55 @@
+/* Add custom CSS styles for the Products page here */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav-item {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
