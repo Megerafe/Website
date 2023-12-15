@@ -1,0 +1,15 @@
+p {
+    color: rebeccapurple;
+}
+
+#id-example {
+    color: brown;
+}
+
+.class-example {
+    color: blue;
+}
+
+li>a {
+    color: darkgreen;
+}

@@ -1,0 +1,67 @@
+/* Bootstrapin tyyliasetukset */
+
+body {
+    font-family: "Jaini Purva", "Jaini";
+}
+
+header {
+    background-color: #343a40; /* Tumma harmaa */
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: pink; /* Tumma harmaa */
+    color: #fff;
+}
+
+/* Lisätyt mukautukset */
+
+/* Koti-sivu */
+#home {
+    background-color: #f8f9fa; /* Vaalean harmaa */
+}
+
+#home img {
+    width: 150px; /* Määritä kuville sopiva leveys */
+    height: 150px; /* Määritä kuville sopiva korkeus */
+}
+
+/* Tuotteet-sivu */
+#products {
+    background-color: #e9ecef; /* Vaalean sinertävä harmaa */
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Yhteystiedot-sivu */
+#contact {
+    background-color: #f8f9fa; /* Vaalean harmaa */
+}
+
+/* Yleiset kohdennukset */
+h2 {
+    color: hotpink; /* Sininen */
+}
+
+.text-primary {
+    color: #007bff; /* Sininen */
+}
