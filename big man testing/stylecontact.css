@@ -1,47 +1,82 @@
 /* Add custom CSS styles for the Contact page here */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: tan;
 }
 
 header {
-    background-color: #343a40;
+    background-color: saddlebrown;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-container {
+    margin-right: auto;
+}
+
+header .company-logo {
+    max-height: 60px; /* Adjust the max-height as needed */
 }
 
 nav {
-    text-align: center;
-    margin: 10px 0;
+    display: flex;
 }
 
-.nav-item {
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px 10px;
+nav a {
     text-decoration: none;
-    color: #007bff;
-    transition: background-color 0.3s;
-}
-
-.nav-item:hover {
-    background-color: #007bff;
     color: white;
+    margin: 0 0.5rem;
+    font-size: 1rem; /* Adjust the font size as needed */
+    padding-left: 25px;
+    padding-top: 15px;
 }
 
 section {
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
 }
 
-address {
-    margin-top: 20px;
+section h2 {
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: inline-block;
+    margin: 0 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 200px; /* Adjust the width as needed */
+    background-color: antiquewhite;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the max-height as needed */
+    padding-top: 20px;
+}
+
+.card-body {
+    padding: 1rem;
 }
 
 footer {
     background-color: #343a40;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

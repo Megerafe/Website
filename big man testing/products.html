@@ -4,78 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleproducts.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Your Company Website - Products</title>
+    <title>Your Company Website - Page Title</title>
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-4">
-        <h1 class="display-4">Your Company Name</h1>
+    <header>
+        <div class="logo-container">
+            <img src="kuvat/images.jpeg" alt="Company Logo" class="company-logo">
+        </div>
         <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="products.html">Products</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
-            </ul>
+            <a class="otsikko">Brazy Braids</a>
+            <a href="testi.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+
         </nav>
     </header>
 
-    <section id="products" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Our Products</h2>
-            <div class="row">
-                <!-- Product 1 -->
-                <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="path/to/product/image1.jpg" alt="Product 1" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 1</h5>
-                            <p class="card-text">$19.99</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 2 -->
-                <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="path/to/product/image2.jpg" alt="Product 2" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 2</h5>
-                            <p class="card-text">$29.99</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 3 -->
-                <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="path/to/product/image3.jpg" alt="Product 3" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 3</h5>
-                            <p class="card-text">$24.99</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 4 -->
-                <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="path/to/product/image4.jpg" alt="Product 4" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 4</h5>
-                            <p class="card-text">$39.99</p>
-                        </div>
-                    </div>
-                </div>
+    <section id="content">
+
+    <section id="products">
+        <h2>Our Hairstyle selection: </h2>
+        <!-- Product 1 -->
+        <div class="card">
+            <img src="kuvat/cornrows.jpeg" alt="Product1" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Cornrows</h5>
+                <p class="card-text">35€</p>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="card">
+            <img src="kuvat/box%20braids.jpeg" alt="Product 2" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Box braids</h5>
+                <p class="card-text">35€</p>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="card">
+            <img src="kuvat/twists.jpeg" alt="Product 3" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Twists</h5>
+                <p class="card-text">30€</p>
             </div>
         </div>
     </section>
 
-    <footer class="footer bg-dark text-white text-center py-3">
-        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Big Man Ting. All rights reserved.</p>
     </footer>
-
-    <!-- Bootstrap JS file (needed for Bootstrap functionality) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
