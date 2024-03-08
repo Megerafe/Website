@@ -58,7 +58,7 @@ section {
 }
 
 .img-fluid {
-    width: 150px; /* Adjust the width of the images */
+    width: 750px; /* Adjust the width of the images */
     height: auto;
 }
 
@@ -71,3 +71,4 @@ section {
     bottom: 0;
     width: 100%;
 }
+.footer
