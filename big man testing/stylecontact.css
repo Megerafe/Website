@@ -80,3 +80,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.otsikko {
+    font-family: Copperplate, Papyrus, fantasy;
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    font-size: 2rem; /* Adjust the font size as needed */
+    /*padding-right: 60px;*/
+    padding-bottom: 15px;
+    text-align: center;
+}
